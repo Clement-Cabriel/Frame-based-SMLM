@@ -75,7 +75,6 @@ class Localization_workflow():
         
         # Input data
         self.folders=['Path/to/image_stack.tif']    # list of paths to the different acquisition stacks of images to process. =['absolute/path/to/acquisition_1.tif','other/absolute/path/second_acquisition.tif',...]. The different acquisitions are processed sequentially with the same parameters. To process a single acquisition, input a list with a single path.
-        self.folders=['C:/Users/Clement/Documents/Data/SMLM test/SMLM_EMCCD_1_MMStack_Default - Substack (1-679) (ie t_0-30s).tif']
         self.frame_limits=[0]                       # Limits of the stack to be processed. =[0] to process everything; =[N_min] to process everything from N_min to the end; =[0,N_max] to process everything from the start to N_max; =[N_min,N_max] to process everything from N_min to N_max
         self.ROI=[0]                                 # Limits of the ROI (in pixels). =[x_min,x_max,y_min,y_max]. Set any value to -1 to keep the default value (for example =[50,-1,-1,-1] to remove the first 50 x pixels). Set =[] to keep all the default parameters
         self.pixel_object_plane=107.                 # Size of the object plane (in nm)
@@ -625,6 +624,7 @@ class Localization_workflow():
         print('')
         
 Localization_workflow=Localization_workflow()
+
 
 
 
