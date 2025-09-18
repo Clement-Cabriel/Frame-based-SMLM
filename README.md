@@ -12,6 +12,7 @@ If you use the code in a publication, please include a reference to the Github r
 * VERSION INFORMATION:
 Created on November 23rd 2020, last updated on May 16th 2024.
 Tested with Python 3.8.3 and Python 3.8.8
+A compatible environment file (SMLM_base_environment.yml) is provided along with the localization code.
  
 * CODE DESCRIPTION:
 This codes consists of several steps:
